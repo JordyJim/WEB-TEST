@@ -1,0 +1,194 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*:before, 
+*:after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+#PageJM #headerpage.fixed-header{
+    background-color: #000000;
+}
+#headerpage.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: height 0.3s;
+    background-color: rgba(255, 255, 255, .9);
+}
+#site-logo a{
+    text-decoration: none;
+    color: inherit;
+}
+#site-logo img{
+    max-width: 130%;
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    height: 100%;
+}
+#site-logo{
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.d-flex{
+    display: flex;
+}
+.link-header{
+    margin: 0px 8px;
+}
+ul li.link-header a{
+    padding-bottom: 8px;
+    color: #ffffff;
+}
+ul li.link-header a:hover{
+    opacity: 0.5;
+}
+
+header{
+    height: 80px;
+}
+
+/* FOOTER */
+.footer-basic{
+    padding: 40px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+.footer-basic .social{
+    text-align: center;
+}
+.footer-basic .social > a{
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    margin: 0 8px;
+    opacity: 1;
+}
+.footer-basic .social > a:hover{
+    opacity: 0.5;
+
+}
+.footer-basic .copy{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+/* PORTADA */
+
+.portada{
+    background-image: url(../img/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+    padding: 0 100px;
+    display: table;
+    width: 100%;
+    background-position: left;
+
+}
+
+.header-texto{
+    text-align: center;
+    color: #000000;
+    height: 100%;
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+h2.no-margin{
+    font-size: 88px;
+}
+.border-title{
+    border-bottom: 4px solid #000000;
+    width: 28%;
+    
+}
+.description-title{
+    font-size: 18px;
+}
+
+/* OFERTAS DEL DIA */
+
+.bg-gray{
+    background-color: #000000;
+}
+.seccion-ofertas{
+    height: 350px;
+    padding: 15px 80px;
+    display: flex;
+    place-content: space-around;
+}
+.oferta-ind{
+    height: 300px;
+    background-color: #ffffff;
+    max-width: 15%;
+    border-radius: 16px;
+}
+
+.img-producto{
+    max-height: 200px;
+    width: -webkit-fill-available;
+    padding-top: 30px;
+}
+.txt-base-carousel-section--discount{
+    font-size: 12px;
+    color: #ffffff;
+    background-color: blue;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+.ml-1{
+    margin-left: 10px;
+}
+
+
+/* UTILIDADES */
+.no-margin{
+    margin: 0;
+}
+
+h2{
+    font-size: 4rem;
+}.text-start{
+    text-align: start;
+}
+.d-flex{
+    display: flex;
+}
+.centrar-texto{
+    text-align: center;
+}
+
